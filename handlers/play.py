@@ -349,7 +349,7 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
-            photo="final.png",
+            photo="",
             caption="****❰ 𝑲𝑨𝑨𝑳 𝑴𝑼𝑺𝑰𝑪 😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
@@ -365,12 +365,12 @@ async def play(_, message: Message):
             )
 
         await message.reply_photo(
-            photo="final.png",
+            photo="",
             reply_markup=keyboard,
             caption="**❰ 𝑲𝑨𝑨𝑳 𝑴𝑼𝑺𝑰𝑪 😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
         message.chat.title
         ), )
 
-    os.remove("final.png")
+    os.remove("")
     return await lel.delete()
     
