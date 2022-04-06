@@ -1,9 +1,9 @@
-# Kaal music
+# Kaal VIP music
 
 ### Best Smart Voice Chat Music Robot For Telegram Groups ...
 
 
-<p align="center"><a href="https://t.me/ITS_HEAVEN_KING"><img src="https://telegra.ph/file/bf88f56c511e27016cb9a.jpg"></a></p>
+<p align="center"><a href="https://t.me/ITS_HEAVEN_KING"><img src="https://telegra.ph/file/8348cd43300d729425f1e.jpg"></a></p>
 
 
 # ʜᴇʀoᴋᴜ ᴅᴇᴘʟᴏʏ
