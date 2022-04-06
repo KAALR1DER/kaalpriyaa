@@ -10,7 +10,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bf88f56c511e27016cb9a.jpg",
+        photo=f"https://telegra.ph/file/96141420c023cd3227f6b.jpg",
         caption=f"""**𝐓𝐡𝐢𝐬 𝐈𝐬 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 🥀𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐌𝐮𝐬𝐢𝐜 🎶 𝐁𝐨𝐭 𝐑𝐮𝐧 𝐎𝐧 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 🥀 𝐕𝐩𝐬 💫𝐒𝐞𝐫𝐯𝐞𝐫 🌎 𝐅𝐞𝐞𝐥 ❤️ 𝐇𝐢𝐠𝐡 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐌𝐮𝐬𝐢𝐜 🎧 𝐈𝐧 𝐕𝐜 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐁𝐲 = [𝐾𝐴𝐴𝐿🔥](https://t.me/its_heaven_King)
 
 𝑪𝒓𝒆𝒂𝒕𝒐𝒓 :- [🔥𝐇𝐄𝐀𝐕𝐄𝐍 𝐊𝐈𝐍𝐆🔥](https://t.me/its_heaven_king)
@@ -35,7 +35,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bf88f56c511e27016cb9a.jpg",
+        photo=f"https://telegra.ph/file/96141420c023cd3227f6b.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
