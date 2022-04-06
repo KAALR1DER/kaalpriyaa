@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝑲𝑨𝑨𝑳 𝑴𝑼𝑺𝑰𝑪 ❱...**")
+    lel = await message.reply("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 ❤️ ❰ 𝑲𝑨𝑨𝑳 𝐕𝐈𝐏 𝑴𝑼𝑺𝑰𝑪 ❱...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/bf88f56c511e27016cb9a.jpg"
+        thumb_name = "https://telegra.ph/file/8348cd43300d729425f1e.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -162,8 +162,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/TARGETTONEET")
+                            text="𝐕𝐈𝐏 𝐠𝐢𝐫𝐥",
+                            url=f"https://t.me/its_vip_girl")
                ],
                [
                     InlineKeyboardButton(
@@ -177,7 +177,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/aimtoneet")
+                            url=f"https://t.me/vip_dunia")
                    
                 ]
             ]
@@ -215,8 +215,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/TARGETTONEET")
+                            text="𝐕𝐈𝐏 𝐠𝐢𝐫𝐥",
+                            url=f"https://t.me/its_vip_girl")
                ],
                [
                     InlineKeyboardButton(
@@ -230,7 +230,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/aimtoneet")
+                            url=f"https://t.me/vip_dunia")
                    
                 ]
             ]
@@ -238,15 +238,15 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/bf88f56c511e27016cb9a.jpg"
+            thumb_name = "https://telegra.ph/file/8348cd43300d729425f1e.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/targettoneet")
+                            text="𝐕𝐈𝐏 𝐠𝐢𝐫𝐥",
+                            url=f"https://t.me/its_vip_girl")
                ],
                [
                     InlineKeyboardButton(
@@ -260,7 +260,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/aimtoneet")
+                            url=f"https://t.me/vip_dunia")
                    
                 ]
             ]
@@ -313,8 +313,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/TARGETTONEET")
+                            text="𝐕𝐈𝐏 𝐠𝐢𝐫𝐥",
+                            url=f"https://t.me/its_vip_girl")
                ],
                [
                     InlineKeyboardButton(
@@ -328,7 +328,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/aimtoneet")
+                            url=f"https://t.me/vip_dunia")
                    
                 ]
             ]
@@ -350,7 +350,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="",
-            caption="****❰ 𝑲𝑨𝑨𝑳 𝑴𝑼𝑺𝑰𝑪 😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
+            caption="****❰ 𝑲𝑨𝑨𝑳 𝐕𝐈𝐏 𝑴𝑼𝑺𝑰𝑪 😈 ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +367,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="",
             reply_markup=keyboard,
-            caption="**❰ 𝑲𝑨𝑨𝑳 𝑴𝑼𝑺𝑰𝑪 😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
+            caption="**❰ 𝑲𝑨𝑨𝑳 𝐕𝐈𝐏 𝑴𝑼𝑺𝑰𝑪 😈 ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**".format(
         message.chat.title
         ), )
 
